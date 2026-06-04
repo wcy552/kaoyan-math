@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>考研数学学习网 - 高等数学 · 线性代数 · 概率统计</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📐</text></svg>">
+</head>
+<body>
+
+<!-- ==================== 顶部导航 ==================== -->
+<header class="header">
+  <div class="header-inner">
+    <a href="#" class="logo" onclick="document.querySelector('.nav-tab[data-tab=home]').click();return false">
+      <div class="logo-icon">∑</div>
+      <span>考研数学学习网</span>
+    </a>
+    <button class="mobile-menu-btn" aria-label="菜单">☰</button>
+    <nav class="nav-tabs">
+      <button class="nav-tab active" data-tab="home">🏠 首页</button>
+      <button class="nav-tab" data-tab="gaoshu">📐 高等数学</button>
+      <button class="nav-tab" data-tab="xiandai">📊 线性代数</button>
+      <button class="nav-tab" data-tab="gailv">🎲 概率统计</button>
+      <button class="nav-tab" data-tab="ziliao">📚 资料下载</button>
+    </nav>
+  </div>
+</header>
+
+<!-- ==================== 主体内容 ==================== -->
+<main class="main">
+
+  <!-- ========== Tab 1: 首页 ========== -->
+  <section class="tab-content active" id="home">
+    <div class="hero">
+      <h1>考研数学一站式学习平台</h1>
+      <p>汇集 B站高播放量名师课程，覆盖高等数学、线性代数、概率统计三大模块，助你高效备考</p>
+      <div class="search-box">
+        <input type="text" id="videoSearch" placeholder="🔍 搜索视频、知识点……">
+        <button>搜索</button>
+      </div>
+    </div>
+
+    <div class="subject-grid">
+      <div class="subject-card gaoshu" data-goto="gaoshu">
+        <div class="icon">📐</div>
+        <h3>高等数学</h3>
+        <p>极限 · 导数 · 积分 · 微分方程 · 级数</p>
+        <span class="badge badge-gaoshu">武忠祥 · 张宇 · 汤家凤</span>
+      </div>
+      <div class="subject-card xiandai" data-goto="xiandai">
+        <div class="icon">📊</div>
+        <h3>线性代数</h3>
+        <p>行列式 · 矩阵 · 向量 · 方程组 · 特征值</p>
+        <span class="badge badge-xiandai">李永乐 · 张宇</span>
+      </div>
+      <div class="subject-card gailv" data-goto="gailv">
+        <div class="icon">🎲</div>
+        <h3>概率统计</h3>
+        <p>随机事件 · 分布函数 · 数字特征 · 参数估计</p>
+        <span class="badge badge-gailv">王式安 · 余丙森</span>
+      </div>
+      <div class="subject-card ziliao" data-goto="ziliao">
+        <div class="icon">📚</div>
+        <h3>资料下载</h3>
+        <p>公式大全 · 历年真题 · 复习计划 · 推荐书单</p>
+        <span class="badge" style="background:#fffbeb;color:#f59e0b;">持续更新</span>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      <span class="tip-icon">💡</span>
+      <p><strong>小提示：</strong>数学一/二/三的考试范围不同。数学一最全面（高数56% + 线代22% + 概率22%），数学二不考概率统计，数学三各科占比与数学一相同但难度略低。请根据报考专业选择对应内容学习。</p>
+    </div>
+  </section>
+
+  <!-- ========== Tab 2: 高等数学 ========== -->
+  <section class="tab-content" id="gaoshu">
+    <div class="module-header">
+      <h2>📐 高等数学</h2>
+      <p>考研数学占比最高（约56%），是拉开分数的关键</p>
+    </div>
+
+    <div class="search-box">
+      <input type="text" class="video-search" placeholder="🔍 搜索高等数学视频或知识点……">
+      <button>搜索</button>
+    </div>
+
+    <!-- 武忠祥 -->
+    <div class="video-section">
+      <div class="teacher-label">
+        <div class="teacher-avatar">武</div>
+        <div class="teacher-info">
+          <h4>武忠祥 老师</h4>
+          <span>西安交通大学教授 | B站粉丝 300万+ | 讲课清晰严谨</span>
+        </div>
+      </div>
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-aid="330107670" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>【建议收藏】考研数学武忠祥 高等数学0基础课</h4>
+            <div class="video-meta">
+              <span class="views">🔥 2195万播放</span>
+              <span>31小时</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/av330107670/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV1n1SCBLE3a" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>讲透武忠祥《高等数学基础篇》—— 90小时通关高数基础+强化</h4>
+            <div class="video-meta">
+              <span class="views">🔥 1220万播放</span>
+              <span>90小时</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/BV1n1SCBLE3a/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 张宇 -->
+    <div class="video-section">
+      <div class="teacher-label">
+        <div class="teacher-avatar">张</div>
+        <div class="teacher-info">
+          <h4>张宇 老师</h4>
+          <span>考研数学名师 | 讲课风趣幽默 | "狮子王"</span>
+        </div>
+      </div>
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV1uPA7zxEXs" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>【B站最全】张宇考研数学基础30讲（完整版合集）</h4>
+            <div class="video-meta">
+              <span class="views">🔥 376万播放</span>
+              <span>56小时</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/BV1uPA7zxEXs/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV16oieYbEzz" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>48分钟学完张宇强化36讲 | 速通版</h4>
+            <div class="video-meta">
+              <span class="views">🔥 热门推荐</span>
+              <span>48分钟</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/BV16oieYbEzz/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 汤家凤 -->
+    <div class="video-section">
+      <div class="teacher-label">
+        <div class="teacher-avatar">汤</div>
+        <div class="teacher-info">
+          <h4>汤家凤 老师</h4>
+          <span>南京大学博士 | "你怎么睡得着的？" | 严格细致</span>
+        </div>
+      </div>
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV1TB421r74T" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>【汤家凤逐题精讲】接力题典1800 基础篇</h4>
+            <div class="video-meta">
+              <span class="views">🔥 664万播放</span>
+              <span>57小时</span>
+            </div>
+            <a class="video-link" href="https://search.bilibili.com/all?keyword=汤家凤 接力题典1800 基础篇" target="_blank">在B站搜索全集 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 高等数学知识点 -->
+    <div class="knowledge-section">
+      <h3>📖 高等数学核心知识点</h3>
+      <div class="knowledge-grid">
+        <div class="knowledge-item">
+          <span class="num">1</span>
+          <h5>函数与极限</h5>
+          <p>数列极限、函数极限、无穷小比较、连续性</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">2</span>
+          <h5>导数与微分</h5>
+          <p>导数定义、求导法则、高阶导数、微分中值定理</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">3</span>
+          <h5>积分学</h5>
+          <p>不定积分、定积分、反常积分、定积分应用</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">4</span>
+          <h5>多元函数微分</h5>
+          <p>偏导数、全微分、方向导数、极值与最值</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">5</span>
+          <h5>重积分</h5>
+          <p>二重积分、三重积分、坐标变换、应用</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">6</span>
+          <h5>曲线曲面积分</h5>
+          <p>第一/二类曲线积分、格林公式、高斯公式</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">7</span>
+          <h5>无穷级数</h5>
+          <p>常数项级数、幂级数、傅里叶级数</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">8</span>
+          <h5>微分方程</h5>
+          <p>一阶方程、高阶线性方程、差分方程</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Tab 3: 线性代数 ========== -->
+  <section class="tab-content" id="xiandai">
+    <div class="module-header">
+      <h2>📊 线性代数</h2>
+      <p>考研数学占比约22%，知识点关联紧密，重在理解</p>
+    </div>
+
+    <div class="search-box">
+      <input type="text" class="video-search" placeholder="🔍 搜索线性代数视频或知识点……">
+      <button>搜索</button>
+    </div>
+
+    <!-- 李永乐 -->
+    <div class="video-section">
+      <div class="teacher-label">
+        <div class="teacher-avatar">李</div>
+        <div class="teacher-info">
+          <h4>李永乐 老师</h4>
+          <span>清华大学教授 | "线代王" | 讲课深入浅出</span>
+        </div>
+      </div>
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV1hJLw6wETZ" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>【李永乐】27考研数学线性代数基础课 | 《线代基础篇》配套视频</h4>
+            <div class="video-meta">
+              <span class="views">🔥 150万播放</span>
+              <span>全套更新中</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/BV1hJLw6wETZ/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV13Y4y1A7UA" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>【李永乐】线性代数重难点合集 | 线代32分 | 配方法化二次型</h4>
+            <div class="video-meta">
+              <span class="views">🔥 5.6万播放</span>
+              <span>精选合集</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/BV13Y4y1A7UA/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV1fePzzTE2o" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>【李永乐老师】考研线代零基础入门！</h4>
+            <div class="video-meta">
+              <span class="views">🔥 4万播放</span>
+              <span>入门精讲</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/BV1fePzzTE2o/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 线性代数知识点 -->
+    <div class="knowledge-section">
+      <h3>📖 线性代数核心知识点</h3>
+      <div class="knowledge-grid">
+        <div class="knowledge-item">
+          <span class="num">1</span>
+          <h5>行列式</h5>
+          <p>行列式性质、展开定理、克拉默法则</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">2</span>
+          <h5>矩阵</h5>
+          <p>矩阵运算、逆矩阵、伴随矩阵、矩阵的秩</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">3</span>
+          <h5>向量</h5>
+          <p>线性表示、线性相关性、极大无关组、向量空间</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">4</span>
+          <h5>线性方程组</h5>
+          <p>齐次/非齐次方程组、解的结构、基础解系</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">5</span>
+          <h5>特征值与特征向量</h5>
+          <p>特征值计算、相似对角化、实对称矩阵</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">6</span>
+          <h5>二次型</h5>
+          <p>二次型标准化、正定性判定、配方法</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Tab 4: 概率统计 ========== -->
+  <section class="tab-content" id="gailv">
+    <div class="module-header">
+      <h2>🎲 概率论与数理统计</h2>
+      <p>考研数学占比约22%，公式较多但题型固定，容易拿分</p>
+    </div>
+
+    <div class="search-box">
+      <input type="text" class="video-search" placeholder="🔍 搜索概率统计视频或知识点……">
+      <button>搜索</button>
+    </div>
+
+    <!-- 余丙森 -->
+    <div class="video-section">
+      <div class="teacher-label">
+        <div class="teacher-avatar">余</div>
+        <div class="teacher-info">
+          <h4>余丙森 老师</h4>
+          <span>新文道考研名师 | 概率论讲解清晰 | 广受好评</span>
+        </div>
+      </div>
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV1ok4y1W77a" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>2024 余丙森概率论与数理统计基础课程</h4>
+            <div class="video-meta">
+              <span class="views">🔥 32.7万播放</span>
+              <span>11.5小时</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/BV1ok4y1W77a/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV1ok4y1W77a" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>2023 余丙森概率论暑期强化课程</h4>
+            <div class="video-meta">
+              <span class="views">🔥 14.6万播放</span>
+              <span>10小时</span>
+            </div>
+            <a class="video-link" href="https://search.bilibili.com/all?keyword=余丙森 概率论 强化" target="_blank">在B站搜索 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 王式安 -->
+    <div class="video-section">
+      <div class="teacher-label">
+        <div class="teacher-avatar">王</div>
+        <div class="teacher-info">
+          <h4>王式安 老师</h4>
+          <span>前考研数学命题组组长 | 对命题思路理解透彻</span>
+        </div>
+      </div>
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV1xz4y1e75Y" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>王式安老师：用概率论武装自己 | 命题组组长谈复习重点</h4>
+            <div class="video-meta">
+              <span class="views">🔥 热门推荐</span>
+              <span>精选视频</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/BV1xz4y1e75Y/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <div class="video-placeholder" data-bvid="BV1nP4y1y7Qj" data-page="1">
+              <span class="play-icon">▶️</span>
+              <span>点击加载视频</span>
+            </div>
+          </div>
+          <div class="video-info">
+            <h4>推荐哪些考研数学老师？| 概率论老师对比分析</h4>
+            <div class="video-meta">
+              <span class="views">🔥 参考推荐</span>
+              <span>干货对比</span>
+            </div>
+            <a class="video-link" href="https://www.bilibili.com/video/BV1nP4y1y7Qj/" target="_blank">在B站打开 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 概率统计知识点 -->
+    <div class="knowledge-section">
+      <h3>📖 概率统计核心知识点</h3>
+      <div class="knowledge-grid">
+        <div class="knowledge-item">
+          <span class="num">1</span>
+          <h5>随机事件与概率</h5>
+          <p>样本空间、概率公式、条件概率、独立性</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">2</span>
+          <h5>随机变量与分布</h5>
+          <p>离散/连续分布、分布函数、常见分布族</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">3</span>
+          <h5>多维随机变量</h5>
+          <p>联合分布、边缘分布、条件分布、独立性</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">4</span>
+          <h5>数字特征</h5>
+          <p>期望、方差、协方差、相关系数、矩</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">5</span>
+          <h5>大数定律与中心极限定理</h5>
+          <p>切比雪夫不等式、辛钦大数定律、CLT</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">6</span>
+          <h5>数理统计</h5>
+          <p>抽样分布、参数估计、假设检验、区间估计</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Tab 5: 资料下载 ========== -->
+  <section class="tab-content" id="ziliao">
+    <div class="module-header">
+      <h2>📚 资料下载与资源汇总</h2>
+      <p>常用公式、历年真题、复习计划、推荐书单</p>
+    </div>
+
+    <div class="resource-grid">
+      <div class="resource-card">
+        <div class="resource-icon formula">📋</div>
+        <div class="resource-info">
+          <h4>考研数学公式大全</h4>
+          <p>高等数学 + 线性代数 + 概率统计 常用公式汇总</p>
+          <a href="https://search.bilibili.com/all?keyword=考研数学公式大全" target="_blank">在B站搜索相关资料 →</a>
+        </div>
+      </div>
+      <div class="resource-card">
+        <div class="resource-icon exam">📝</div>
+        <div class="resource-info">
+          <h4>历年真题（1987-2025）</h4>
+          <p>数学一/二/三 全部真题及详细解析</p>
+          <a href="https://search.bilibili.com/all?keyword=考研数学历年真题解析" target="_blank">在B站搜索真题讲解 →</a>
+        </div>
+      </div>
+      <div class="resource-card">
+        <div class="resource-icon plan">📅</div>
+        <div class="resource-info">
+          <h4>复习计划时间表</h4>
+          <p>基础阶段 → 强化阶段 → 冲刺阶段 全流程规划</p>
+          <a href="https://search.bilibili.com/all?keyword=考研数学全年复习规划" target="_blank">在B站搜索复习规划 →</a>
+        </div>
+      </div>
+      <div class="resource-card">
+        <div class="resource-icon book">📖</div>
+        <div class="resource-info">
+          <h4>推荐教材与辅导书</h4>
+          <p>同济高数、浙大概率、李永乐线代讲义等必备用书</p>
+          <a href="https://search.bilibili.com/all?keyword=考研数学教材推荐" target="_blank">在B站搜索书单推荐 →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="knowledge-section" style="margin-top: 32px;">
+      <h3>🔥 各科推荐图书清单</h3>
+      <div class="knowledge-grid">
+        <div class="knowledge-item">
+          <span class="num">高</span>
+          <h5>《高等数学》同济第七版</h5>
+          <p>经典教材，适合打基础</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">线</span>
+          <h5>《线性代数》同济第六版</h5>
+          <p>基础教材，配合李永乐讲义</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">概</span>
+          <h5>《概率论与数理统计》浙大第四版</h5>
+          <p>考研指定参考教材</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">练</span>
+          <h5>张宇《1000题》/ 汤家凤《1800题》</h5>
+          <p>刷题必备，覆盖全部考点</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">真</span>
+          <h5>《考研数学历年真题》李永乐版</h5>
+          <p>真题是最好的复习资料</p>
+        </div>
+        <div class="knowledge-item">
+          <span class="num">冲</span>
+          <h5>张宇《8+4套卷》/ 李林《6+4套卷》</h5>
+          <p>考前模拟冲刺必备</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      <span class="tip-icon">💡</span>
+      <p><strong>复习建议：</strong>基础阶段（3-6月）看教材+基础课；强化阶段（7-9月）刷题+强化课；冲刺阶段（10-12月）做真题+模拟卷。数学重在动手算，不要只看不练！</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ==================== 页脚 ==================== -->
+<footer class="footer">
+  <p>📐 考研数学学习网 | 课程视频来源：B站 | 仅供学习交流使用</p>
+  <p style="margin-top: 4px;">愿你以梦为马，不负韶华 💪</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
